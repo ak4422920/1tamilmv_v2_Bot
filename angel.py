@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, request
 
-TOKEN = '76'  # replace your bot token
+TOKEN = '7609220129:AAH9yr0-WDBjCycA2WT2HNHLnRvYLMvVpQo'  # replace your bot token
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -29,8 +29,8 @@ def random_answer(message):
     )
     
     keyboard = types.InlineKeyboardMarkup().add(
-        types.InlineKeyboardButton('🔗 GitHub 🔗', url='https://github.com/SudoR2spr'),
-        types.InlineKeyboardButton(text="⚡ Powered By", url='https://t.me/Opleech_WD')
+        types.InlineKeyboardButton('🔗 GitHub 🔗', url='https://t.me/AKMovieBotz'),
+        types.InlineKeyboardButton(text="⚡ Powered By", url='https://t.me/Cineoriginals')
     )
     
     bot.send_photo(
